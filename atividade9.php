@@ -9,8 +9,8 @@ R$ 2.100,00.
 
 // entradas - variaveis
 
-$valorArrecadado = 42.000;
-$bonus = 5;
+$valorArrecadado = 4200.00;
+$bonus = 5 / 100;
 
 
 

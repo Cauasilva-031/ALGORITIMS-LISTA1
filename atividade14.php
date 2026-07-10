@@ -8,11 +8,12 @@ desconto de R$ 19,00 e valor final de R$ 181,00.
 
 //entrada - variaveis
 $valorProduto = 200;
-$desconto = 19;
+$desconto =  9.5 / 100;
 
 
 //processamento
-$valorFinal = $valorProduto - $desconto
+$descontos = $valorProduto * $desconto;
+$valorFinal = $valorProduto - $descontos
 
 
 

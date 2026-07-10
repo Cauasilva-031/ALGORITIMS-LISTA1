@@ -7,8 +7,9 @@ Resultado esperado: um desconto de 10% sobre R$ 4.500,00 corresponde a R$
 */
 
 // entradas variaveis
-$valorInicial = 4.500;
-$desconto = 10;
+$valorInicial = 4500.00;
+$desconto =  $valorInicial * 10 / 100;
+
 
 //processamento
 $descontoFinal = $valorInicial * $desconto;
@@ -31,15 +32,6 @@ $descontoFinal = $valorInicial * $desconto;
 
 
 ?>
-
-
-
-
-
-
-
-
-
 
 
 
